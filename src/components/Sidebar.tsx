@@ -1,6 +1,7 @@
 import { Icon } from "@chakra-ui/react";
 import { Box, Stack, Text, Link } from "@chakra-ui/react";
-import { RiContactsLine, RiDashboardLine, RiGitMergeLine, RiInputMethodLine } from "react-icons/ri";
+import { RiContactsLine, RiDashboardLine, } from "react-icons/ri";
+import { AiOutlineLaptop } from "react-icons/ai";
 
 export function Sidebar() {
     return (
@@ -9,13 +10,17 @@ export function Sidebar() {
                 <Box>
                     <Text fontWeight="bold" color="gray.400" fontSize="small">GERAL</Text>
                     <Stack spacing="4" mt="8" align="stretch">
-                        <Link display="flex" align="center">
+                        <Link display="flex" align="center" href="/">
                             <Icon as={RiDashboardLine} fontSize="20" />
                             <Text ml="4" fontWeight="medium">Dashboard</Text>
                         </Link>
-                        <Link display="flex" align="center" href="/users">
+                        <Link display="flex" align="center" href="/contato">
                             <Icon as={RiContactsLine} fontSize="20" />
                             <Text ml="4" fontWeight="medium">Contato</Text>
+                        </Link>
+                        <Link display="flex" align="center" href="/users">
+                            <Icon as={AiOutlineLaptop} fontSize="20" />
+                            <Text ml="4" fontWeight="medium">Projetos</Text>
                         </Link>
                     </Stack>
                 </Box>

@@ -20,7 +20,7 @@ export function Header() {
                 w="64"
             >
                 MeuPortifólio
-                <Text as="span" ml="1" color="blue.500">.</Text>
+                <Text as="span" ml="1" color="blue.500">!</Text>
             </Text>
 
 

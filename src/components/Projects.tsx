@@ -1,16 +1,14 @@
 import { Flex, Text, Box, SimpleGrid, Icon } from '@chakra-ui/react'
-import { image } from 'next/image'
+
 
 interface ProjectsProps {
     titulo: string;
     descrição: string;
     especificações: string;
-    imagem?: string;
-
 }
 
 
-export function Projects({ titulo, descrição, especificações, imagem }: ProjectsProps) {
+export function Projects({ titulo, descrição, especificações }: ProjectsProps) {
     return (
         <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
 
@@ -31,7 +29,6 @@ export function Projects({ titulo, descrição, especificações, imagem }: Proj
                     >
                         {titulo}
                     </Text>
-                    <image src={imagem} alt={imagem} />
                     <Text
                         fontSize="1xl"
                         mb="2"

@@ -1,4 +1,5 @@
 import { Flex, Text, Box, SimpleGrid, Icon } from '@chakra-ui/react'
+import { image } from 'next/image'
 
 interface ProjectsProps {
     titulo: string;
@@ -30,7 +31,7 @@ export function Projects({ titulo, descrição, especificações, imagem }: Proj
                     >
                         {titulo}
                     </Text>
-                    <img src={imagem} alt={imagem} />
+                    <image src={imagem} alt={imagem} />
                     <Text
                         fontSize="1xl"
                         mb="2"

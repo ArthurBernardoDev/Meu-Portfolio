@@ -1,4 +1,4 @@
-import { Flex, Text, Input, Icon, HStack, Box, Avatar } from "@chakra-ui/react";
+import { Flex, Text, Link, Icon, HStack, Box, Avatar } from "@chakra-ui/react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export function Header() {
@@ -38,8 +38,8 @@ export function Header() {
                     borderColor="gray.700"
 
                 >
-                    <Icon as={AiFillGithub} fontSize="20" />
-                    <Icon as={AiFillLinkedin} fontSize="20" />
+                    <Link href="https://github.com/ArthurBernardoDev"><Icon as={AiFillGithub} fontSize="20" /></Link>
+                    <Link href="https://www.linkedin.com/in/arthur-bernardo-a636b3180/"><Icon as={AiFillLinkedin} fontSize="20" /></Link>
                 </HStack>
 
                 <Flex align="center">

@@ -1,7 +1,7 @@
 import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
 import { Flex, Text, Box, SimpleGrid, Icon } from '@chakra-ui/react'
-import { FaReact, FaCss3 } from "react-icons/fa";
+import { FaReact, FaCss3, FaSass } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import { SiJavascript, SiTypescript } from "react-icons/si";
 
@@ -32,6 +32,7 @@ export default function Home() {
             <Box>
               <Icon as={AiFillHtml5} color="red.300" fontSize="25" ml="4" />
               <Icon as={FaCss3} color="blue.300" fontSize="25" ml="4" />
+              <Icon as={FaSass} color="pink.300" fontSize="25" ml="4" />
               <Icon as={SiJavascript} color="yellow.300" fontSize="25" ml="4" />
               <Icon as={SiTypescript} color="blue.300" fontSize="25" ml="4" />
               <Icon as={FaReact} color="blue.400" fontSize="25" ml="4" />

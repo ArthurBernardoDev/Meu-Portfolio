@@ -27,7 +27,7 @@ export default function Projetos() {
                     <Projects
                         titulo="Dtmoney"
                         descrição="Projeto feito com React utilizando o conceito de Styled Components"
-                        especificações="Projeto feito com React Consumindo um Api MirajeJs para o back-end 'falso' utilizando Styled Components para o style"
+                        especificações="Projeto feito com React Consumindo uma Api MirajeJs para o back-end 'falso' utilizando Styled Components para o style"
                         imagem="/dtmoney.png"
                         linkRepositorio="https://github.com/ArthurBernardoDev/ignite-Dtmoney"
                         tituloLinkRepo="Repositorio"

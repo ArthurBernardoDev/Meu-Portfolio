@@ -1,14 +1,21 @@
-import { Flex, Text, Box, SimpleGrid, Icon } from '@chakra-ui/react'
+import { Flex, Text, Box, SimpleGrid, Link } from '@chakra-ui/react'
+import Image from 'next/image'
 
 
 interface ProjectsProps {
     titulo: string;
     descrição: string;
     especificações: string;
+    imagem: string;
+    linkRepositorio: string;
+    tituloLinkRepo: string;
+    tituloLinkSite: string;
+    linkSite: string;
 }
 
 
-export function Projects({ titulo, descrição, especificações }: ProjectsProps) {
+
+export function Projects({ titulo, descrição, especificações, imagem, linkRepositorio, linkSite, tituloLinkRepo, tituloLinkSite }: ProjectsProps) {
     return (
         <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
 
@@ -38,7 +45,7 @@ export function Projects({ titulo, descrição, especificações }: ProjectsProp
                     </Text>
 
                     <Text
-                        fontSize="10"
+                        fontSize="14"
                         mb="2"
                         fontWeight="normal"
                         color="whiteAlpha.700"
@@ -46,9 +53,20 @@ export function Projects({ titulo, descrição, especificações }: ProjectsProp
                     >
                         {especificações}
                     </Text>
+                    <Image
+                        id="imagem"
+                        src={imagem}
+                        width={300}
+                        height={200}
+                    />
+
+                    <Flex mt="8" justify="flex-end">
+                        <Link ml="20" color="blue.300" href={linkRepositorio}>{tituloLinkRepo}</Link>
+                        <Link ml="4" color="blue.300" href={linkSite}>{tituloLinkSite}</Link>
+                    </Flex>
                 </Box>
             </SimpleGrid>
 
-        </Flex>
+        </Flex >
     );
 }

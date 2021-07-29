@@ -8,13 +8,13 @@ export function SidebarNav() {
     return (
         <Stack spacing="8" align="flex-start">
             <NavSection title="GERAL">
-                <NavLink icon={RiDashboardLine} rota="/">
+                <NavLink icon={RiDashboardLine} href="/">
                     Dashboard
                 </NavLink>
-                <NavLink icon={RiContactsLine} rota="/contato">
+                <NavLink icon={RiContactsLine} href="/contato">
                     Contato
                 </NavLink>
-                <NavLink icon={AiOutlineLaptop} rota="/projetos">
+                <NavLink icon={AiOutlineLaptop} href="/projetos">
                     Projetos
                 </NavLink>
             </NavSection>

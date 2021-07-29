@@ -8,14 +8,12 @@ interface ProjectsProps {
     especificações: string;
     imagem: string;
     linkRepositorio: string;
-    tituloLinkRepo: string;
-    tituloLinkSite: string;
     linkSite: string;
 }
 
 
 
-export function Projects({ titulo, descrição, especificações, imagem, linkRepositorio, linkSite, tituloLinkRepo, tituloLinkSite }: ProjectsProps) {
+export function Projects({ titulo, descrição, especificações, imagem, linkRepositorio, linkSite, }: ProjectsProps) {
     return (
         <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
 
@@ -61,8 +59,8 @@ export function Projects({ titulo, descrição, especificações, imagem, linkRe
                     />
 
                     <Flex mt="8" justify="flex-end">
-                        <Link ml="20" color="blue.300" href={linkRepositorio}>{tituloLinkRepo}</Link>
-                        <Link ml="4" color="blue.300" href={linkSite}>{tituloLinkSite}</Link>
+                        <Link ml="20" color="blue.300" href={linkRepositorio}>Repositorio</Link>
+                        <Link ml="4" color="blue.300" href={linkSite}>Acesso ao site</Link>
                     </Flex>
                 </Box>
             </SimpleGrid>

@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, SimpleGrid, } from "@chakra-ui/react";
 import { Header } from '../components/Header'
 import { Projects } from "../components/Projects";
 import { Sidebar } from '../components/Sidebar'
@@ -10,10 +10,10 @@ export default function Projetos() {
         <Flex direction="column" h="100vh">
             <Header />
 
-            <Flex my="6" maxWidth={1480} mx="auto" px="6" >
+            <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
                 <Sidebar />
 
-                <Flex direction="column" maxWidth={1480}>
+                <SimpleGrid direction="column" flex="1" gap="4" minChildWidth="320px" align="flex-start">
                     <Projects
                         titulo="Ignews"
                         descrição="Projeto feito com React e Scss"
@@ -38,7 +38,8 @@ export default function Projetos() {
                         linkRepositorio="https://github.com/ArthurBernardoDev/ignite-Dtmoney"
                         linkSite="https://ignite-dtmoney-ten.vercel.app/"
                     />
-                </Flex>
+
+                </SimpleGrid>
 
             </Flex>
         </Flex>

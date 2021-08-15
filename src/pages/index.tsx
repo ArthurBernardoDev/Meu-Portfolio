@@ -26,7 +26,7 @@ export default function Home() {
             <Text fontSize="3xl" mb="4" color="blue.500">Sobre Mim</Text>
             <Text fontSize="2xl" mb="2">Olá eu sou o Arthur Bernardo</Text>
             <Text fontSize="20" mb="2" fontWeight="normal" color="whiteAlpha.700">
-              Atualmente meus estudos são voltados Front-end com foco em tecnologias e frameworks como React, Next e Typescript. Tenho 18 anos e moro no Brasil.
+              Atualmente meus estudos são voltados para o Front-end com foco em tecnologias e frameworks como React, Next e Typescript. Tenho 18 anos e moro no Brasil.
               Estou cursando o 2° semestre de Análise e desenvolvimento de sistemas pela Puc-Minas
             </Text>
             <Box>

@@ -7,8 +7,8 @@ interface ProjectsProps {
     descrição: string;
     especificações: string;
     imagem: string;
-    linkRepositorio: string;
-    linkSite: string;
+    linkRepositorio?: string;
+    linkSite?: string;
 }
 
 

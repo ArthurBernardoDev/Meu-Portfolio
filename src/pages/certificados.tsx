@@ -56,7 +56,7 @@ export default function Projetos() {
             height={450}
         />
                     <Flex mt="8" justify="flex-end">
-                        <Link ml="20" color="blue.300" href="#">Acessar o certificado</Link>
+                        <Link ml="20" color="blue.300" href="https://app.rocketseat.com.br/certificates/b78b0d0c-beb6-4f26-8f0f-3e9d4630258e">Acessar o certificado</Link>
 
                     </Flex>
         

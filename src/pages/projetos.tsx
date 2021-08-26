@@ -38,6 +38,14 @@ export default function Projetos() {
                         linkRepositorio="https://github.com/ArthurBernardoDev/ignite-Dtmoney"
                         linkSite="https://ignite-dtmoney-ten.vercel.app/"
                     />
+                    <Projects
+                        titulo="Walking Style"
+                        descrição="Projeto feito com Html Css Js e Json server"
+                        especificações="Projeto feito no primeiro semestre da faculdade de Análise e desenvolvimento de sistemas pela puc minas"
+                        imagem="/walking.png"
+                        linkRepositorio="https://github.com/ArthurBernardoDev/Walking_Style"
+                        linkSite="https://arthurbernardodev.github.io/Walking_Style/"
+                    />
 
                 </SimpleGrid>
 

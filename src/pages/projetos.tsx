@@ -44,8 +44,8 @@ const Projetos: NextPage = () => {
       />
       <Projects
         titulo="Pet Pass"
-        descrição="Projeto feito com NetxJs, ChakraUI, typescript, C#, Asp.Net (Em Desenvolvimento)"
-        especificações="Projeto em desenvolvimento no segundo semestre da faculdade de Análise e desenvolvimento de sistemas pela puc minas"
+        descrição="Projeto feito com NetxJs, ChakraUI, typescript (Em Desenvolvimento)"
+        especificações="Projeto em desenvolvimento no segundo semestre da faculdade de Análise e desenvolvimento de sistemas pela Puc minas"
         imagem="/petpassimg.png"
         linkRepositorio="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-petpass"
         linkSite="https://pet-pass.vercel.app/"

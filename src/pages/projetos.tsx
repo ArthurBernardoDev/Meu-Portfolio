@@ -11,12 +11,12 @@ const Projetos: NextPage = () => {
       align="flex-start"
     >
       <Projects
-        titulo="Ignews"
-        descrição="Projeto feito com React e Scss"
-        especificações="Site com login feito por autenticação com Github utilizando Github Auth e Stripe para pagamento de conteúdos React"
-        imagem="/IgNews.png"
-        linkRepositorio="https://github.com/ArthurBernardoDev/IgNews"
-        linkSite="#"
+          titulo="Control Money"
+          descrição="Projeto feito com React, Scss, Node e typeORM"
+          especificações="Site feito para controle de gastos, desenvolvido em ReactJs e node utilizando Auth JWT"
+          imagem="/ControlMoney.png"
+          linkRepositorio="https://github.com/ArthurBernardoDev/IgNews"
+          linkSite="#"
       />
       <Projects
         titulo="DashGo"
@@ -49,6 +49,14 @@ const Projetos: NextPage = () => {
         imagem="/petpassimg.png"
         linkRepositorio="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t3-petpass"
         linkSite="https://pet-pass.vercel.app/"
+      />
+      <Projects
+          titulo="Ignews"
+          descrição="Projeto feito com React e Scss"
+          especificações="Site com login feito por autenticação com Github utilizando Github Auth e Stripe para pagamento de conteúdos React"
+          imagem="/IgNews.png"
+          linkRepositorio="https://github.com/ArthurBernardoDev/IgNews"
+          linkSite="#"
       />
     </SimpleGrid>
   );

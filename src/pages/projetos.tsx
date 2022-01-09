@@ -15,8 +15,8 @@ const Projetos: NextPage = () => {
           descrição="Projeto feito com React, Scss, Node e typeORM"
           especificações="Site feito para controle de gastos, desenvolvido em ReactJs e node utilizando Auth JWT"
           imagem="/ControlMoney.png"
-          linkRepositorio="https://github.com/ArthurBernardoDev/IgNews"
-          linkSite="#"
+          linkRepositorio="https://github.com/ArthurBernardoDev/Control-money"
+          linkSite="https://control-money.vercel.app/"
       />
       <Projects
         titulo="DashGo"
